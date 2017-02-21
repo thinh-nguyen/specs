@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "mwkit"
+  s.name             = "MeltwaterKit"
   s.version          = "0.0.1"
   s.summary          = "Meltwater Kit for iOS"
   s.homepage         = "https://github.com/thinh-nguyen/mwkit"
@@ -13,9 +13,11 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '10.0'
   s.requires_arc = true
 
-  s.source_files = 'MWKit'
-  s.resources = 'MWKit/Assets.xcassets/*'
-
+  s.source_files = 'MeltwaterKit'
+  s.resources = 'MeltwaterKit/Assets.xcassets/*'
+  s.resource_bundles = {
+    'MeltwaterKit' => ['MeltwaterKit/**/*.{storyboard,xib}']
+  }
   s.frameworks = 'UIKit', 'CoreText'
-  s.module_name = 'mwkit'
+  s.module_name = 'MeltwaterKit'
 end

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "MeltwaterKit"
-  s.version          = "0.0.2"
+  s.version          = "0.0.1"
   s.summary          = "Meltwater Kit for iOS"
   s.homepage         = "https://github.com/thinh-nguyen/mwkit"
   s.license          = { :type => 'Meltwater', :text => <<-LICENSE

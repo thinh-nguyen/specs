@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '10.0'
   s.requires_arc = true
 
-  s.source_files = 'MeltwaterKit/**/*'
+  s.source_files = 'MeltwaterKit/classes'
   s.resources = 'MeltwaterKit/Assets.xcassets/*'
   s.resource_bundles = {
     'MeltwaterKit' => ['MeltwaterKit/**/*.{storyboard,xib}']

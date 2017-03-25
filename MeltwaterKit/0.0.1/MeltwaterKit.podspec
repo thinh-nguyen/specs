@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.source_files = 'MeltwaterKit/classes'
   s.resources = 'MeltwaterKit/Assets.xcassets/*'
   s.resource_bundles = {
-    'MeltwaterKit' => ['MeltwaterKit/**/*.{storyboard,xib}']
+    'MeltwaterKit' => ['MeltwaterKit/**/*.{storyboard,xib,png}']
   }
   s.frameworks = 'UIKit', 'CoreText'
   s.module_name = 'MeltwaterKit'

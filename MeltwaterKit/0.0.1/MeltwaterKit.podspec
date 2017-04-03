@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   }
   s.frameworks = 'UIKit', 'CoreText'
   s.module_name = 'MeltwaterKit'
+  s.dependency 'PromiseKit', '~> 4.0'
   s.dependency 'Alamofire', '~> 4.0'
   s.dependency 'AlamofireObjectMapper', '~> 4.0'
   s.dependency 'AlamofireImage', '~> 3.1'

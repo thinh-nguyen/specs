@@ -24,4 +24,6 @@ Pod::Spec.new do |s|
   s.dependency 'AlamofireObjectMapper', '~> 4.0'
   s.dependency 'AlamofireImage', '~> 3.1'
   s.dependency 'PKHUD', '~> 4.0'
+  s.dependency 'Lock/Email', '~> 1.19'
+  s.dependency 'Auth0', '~> 1.2.0'
 end
